@@ -57,7 +57,7 @@ def check_perfect(n):
             sum+=i
     return sum
 if __name__ == "__main__":
-    n=28
+    n=27
     sum = check_perfect(n)
     if sum == n:
         print("perfect")

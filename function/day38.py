@@ -10,6 +10,7 @@
 # __gt__()
 # __le__()
 # __eq__()
+from abc import abstractmethod
 
 
 # class Employee:
@@ -31,4 +32,14 @@
 # s3 = student(200000)
 # s4 = student(30000)
 # print(s1+s2+s3+s4)
+
+
+
+from abc import ABC, abstractmethod
+
+class Demo(ABC):
+    @abstractmethod
+    def meth(self):
+        pass
+
 
