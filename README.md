@@ -32,6 +32,4 @@ This repository contains basic Python programs practiced at Dhee Coding Lab to i
 
 Regular practice to improve consistency and problem-solving ability.
 
----
 
-If you want, I can make it slightly stronger for resume without losing simplicity 👍
