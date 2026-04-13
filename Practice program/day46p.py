@@ -1,4 +1,4 @@
-# binary search
+# # binary search
 # def binarysearch(arr,key):
 #     start = 0
 #     end =   len(arr)-1
@@ -13,7 +13,7 @@
 #     return -1
 # if __name__ == '__main__':
 #     arr = [2,4,6,8,12,24,32]
-#     key = 8
+#     key = 67
 #     print(binarysearch(arr,key))
 # Bubble sort
 
@@ -28,16 +28,28 @@
 #     bobble(arr)
 
 
-def compare_arr(arr,brr):
-    if len(arr)!= len(brr):
-        return False
-    for i in range(len(arr)):
-        if arr[i] != brr[i]:
-            return False
-        else:
-            continue
-    return  False
-if __name__ == '__main__':
-    arr = [12,32,10,24,45]
-    brr = [12, 32, 10, 24, 45]
-    print(compare_arr(arr,brr))
+# def compare_arr(arr,brr):
+#     if len(arr)!= len(brr):
+#         return False
+#     for i in range(len(arr)):
+#         if arr[i] != brr[i]:
+#             return False
+#         else:
+#             continue
+#     return  False
+# if __name__ == '__main__':
+#     arr = [12,32,10,24,45]
+#     brr = [12, 32, 10, 24, 45]
+#     print(compare_arr(arr,brr))
+
+# def compare(arr,brr):
+#     for i in range(len(arr)):
+#         if arr[i]!= brr[i]:
+#             return False
+#         else:
+#             continue
+#     return True
+# if __name__ == '__main__':
+#     arr = [12,10,15,20,30]
+#     brr = [12,10,13,20,30]
+#     print(compare(arr,brr))
